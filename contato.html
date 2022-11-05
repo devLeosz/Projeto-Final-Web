@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>UNES - Contato</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body background="imagens/fundo2.png">
+
+		<table id="table">
+			
+			<tr id="nav">
+				<td><img src="imagens/logo.png" height="86"></td>
+				<td id="links" colspan="2">
+					<a href="index.html">Home |</a>
+					<a href="quem-somos.html">Quem somos |</a>
+					<a href="contato.html">Contato</a>
+				</td>	
+			</tr>
+		
+			<tr>
+				<td colspan="2">
+
+					<h2>Contato</h2>
+					<p>
+						Deixe aqui sua mensagem, caso queira ingressar na Universidade UNES.<br>
+					</p>
+					<hr>
+
+					<form>
+						
+						Seu nome: <br>
+						<input type="text" name="nome" required><br><br>
+
+						Seu e-mail: <br>
+						<input type="text" name="email" placeholder="unes@gmail.com " required><br><br>
+
+						Celular: <br>
+						<input type="tel" name="celular" placeholder="(xx) xxxxx-xxxx" required><br><br>
+
+						Sexo: <br>
+                            <input type="radio" id="M" name="sexo">
+                            <label for="M">Masculino</label>
+                            <input type="radio" id="F" name="sexo">
+                            <label for="F">Feminino</label><br><br>
+
+						Como nos conheceu:<br>
+                            <input type="checkbox" id="ads">
+                            <label for="ads">Anúncio</label>
+                            <input type="checkbox" id="face">
+                            <label for="face">Facebook</label>
+                            <input type="checkbox" id="insta">
+                            <label for="insta">Instagram</label><br><br>
+
+						Assunto: <br>
+						<textarea name="message" id="txt" rows="10" cols="40" placeholder="Escreva aqui..."></textarea><br>
+
+						<input type="submit" value="Enviar">
+						<input type="reset" name="Limpar">
+
+					</form>
+
+				</td>
+			</tr>
+
+			<tr>
+				<td id="rodape" colspan="2">
+					<h4>Todos os direitos reservados.</h4>
+				</td>
+			</tr>
+
+		</table>
+
+	</body>
+</html>
